@@ -1,3 +1,7 @@
+/**{
+  border: 1px solid red;
+}
+*/
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -30,7 +34,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52d3aa;
+  color: #3f95ea;
   outline: none;
 }
 
@@ -214,7 +218,9 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #52d3aa !important;
+    color: #43a2dc !important;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -223,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #52d3aa !important;
+    color: #43a2dc !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -231,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #52d3aa !important;
+    color: #43a2dc !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -359,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #52d3aa;
+  color: #43a2dc;
   font-style: normal;
 }
 #fh5co-header a {
@@ -461,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   margin-top: -150px;
   z-index: 10;
-  padding-bottom: 7em;
+ /* padding-bottom: 7em; */
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro {
@@ -496,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
@@ -558,8 +564,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #52d3aa !important;
-  border: 2px solid #52d3aa !important;
+  background: #43a2dc !important;
+  border: 2px solid #43a2dc !important;
 }
 
 .watch-video {
@@ -622,7 +628,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-services, #fh5co-work, #fh5co-counters {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-work, #fh5co-counters {
@@ -693,14 +699,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-counters {
-  background: #52d3aa;
+  background-image: url('https://images.unsplash.com/photo-1496046906094-ab55b3670ea4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=84dec1358f6db8b3ae6a95b4b56e8cdc&auto=format&fit=crop&w=1351&q=80');
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  padding: 9em 0 10em 0;
+  padding: 5em 0 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counters {
@@ -766,7 +774,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-icon,
-#fh5co-counters .fh5co-counter .fh5co-counter-number,
+#fh5co-counters .fh5co-counter,
 #fh5co-counters .fh5co-counter .fh5co-counter-label {
   display: block;
 }
@@ -1040,7 +1048,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-contact .fh5co-contact-info li {
   position: relative;
   padding: 0;
-  margin: 0 0 1.5em 0;
+  margin: 0 0 0.5em 0;
   padding-left: 50px;
   list-style: none;
 }
@@ -1053,8 +1061,8 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
   clear: both;
 }
 .section-heading h2 {
@@ -1138,14 +1146,14 @@ h1, h2, h3, h4, h5, h6 {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #52d3aa;
+  background: #43a2dc;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #52d3aa;
+  background: #43a2dc;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1211,7 +1219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding-top: 50px;
   color: #7f7f7f;
   position: relative;
 }
@@ -1411,3 +1419,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+/*
+.facts-background {
+  min-height:400px;
+  background-image: url('https://images.unsplash.com/photo-1470398492179-b96ece477ef7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c93895f20d4e1528f9512aae099e745&auto=format&fit=crop&w=1489&q=80');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+data-stellar-background-ratio="0.5"
+style="background-image: url('https://images.unsplash.com/photo-1496046906094-ab55b3670ea4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=84dec1358f6db8b3ae6a95b4b56e8cdc&auto=format&fit=crop&w=1351&q=80');" data-stellar-background-ratio="0.5">
+
+  
+*/
+.clients {
+background-color: #b3b3b3;
+
+}
+
+.tommaszt {
+background-image: url('http://www.tomaszt.eu/templates/tomaszt/images/logo.gif');
+ background-size: contain;
+ background-repeat: no-repeat;
+background-position: center;
+  min-height: 50px;
+   margin: 1em;
+
+}
