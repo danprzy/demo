@@ -409,15 +409,15 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%;
       animation: image-animation 18s linear infinite; }
  .slideshow .first-slide {
-      background-image: url(../images/mainbackground2.JPG); 
+      background-image: url(../images/mainbackground1.jpg); 
 
     }
 .slideshow .second-slide {
-      background-image: url(https://cdn.pixabay.com/photo/2016/11/03/15/03/solar-panels-1794467_960_720.jpg);
+      background-image: url(../images/mainbackground2.jpg);
       animation-delay: 6s;
       background-position: center; }
   .slideshow .third-slide {
-      background-image: url(https://cdn.pixabay.com/photo/2017/02/10/21/52/windmill-2056415_960_720.jpg);
+      background-image: url(../images/mainbackground3.jpg);
       animation-delay: 12s;
       background-position: top; 
     }
@@ -752,7 +752,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-counters {
-  background-image: url('https://cdn.pixabay.com/photo/2016/08/17/13/06/wind-park-1600377_960_720.jpg');
+  background-image: url('../images/counter_background.jpg');
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
