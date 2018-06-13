@@ -434,11 +434,12 @@
 	};
 
 
-	
-	
+// fropdown menu
 
-
-	
+$(function(){
+    // Enables popover
+    $("[data-toggle=popover]").popover();
+});
 	
 
 	// Document on load.
@@ -467,6 +468,7 @@
 		countersAnimate();
 		contactAnimate();
 		
+		offcanvasMenu();
 
 	});
 
