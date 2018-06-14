@@ -472,5 +472,25 @@ $(function(){
 
 	});
 
+// Demo 
+// Select all tabs
+/*
+$('#operation-panel a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#construction-panel a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#operation-panel a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+*/
+
+
 
 }());
