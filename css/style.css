@@ -535,11 +535,11 @@ $popover-arrow-outer-color: fade-in($popover-border-color, .05) !default;
     }
  
 .slideshow .first-slide-services {
-      background-image: url(https://cdn.pixabay.com/photo/2016/05/15/16/08/solar-panel-1393880_960_720.png); 
+      background-image: url(../images/first-slide-services.jpg); 
       background-position: center; 
     }
 .slideshow .second-slide-services {
-      background-image: url(https://cdn.pixabay.com/photo/2018/05/10/16/07/steel-3387882_960_720.jpg);
+      background-image: url(../images/second-slide-services.png);
       animation-delay: 6s;
       background-position: center; }
   .slideshow .third-slide-services {
